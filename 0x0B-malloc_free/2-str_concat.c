@@ -8,7 +8,7 @@
  * @s1: input string 1
  * @s2: input string 2
  *
- * Rerurn: pointer
+ * Return: pointer
  */
 char *str_concat(char *s1, char *s2)
 {
