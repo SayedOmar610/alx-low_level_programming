@@ -8,9 +8,7 @@
  * @s1: input string 1
  * @s2: input string 2
  *
- * Rerurn: point to a newly allocated space in memory which contains the
- * contents of s1, followed by the contents of s2, and null terminated
- * return NULL on failure
+ * Rerurn: pointer
  */
 char *str_concat(char *s1, char *s2)
 {
