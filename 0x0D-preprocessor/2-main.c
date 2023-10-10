@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the file that was comiled from 
+ * main - prints the name of the file that was comiled from
  *
  * Return: Always 0
  */
