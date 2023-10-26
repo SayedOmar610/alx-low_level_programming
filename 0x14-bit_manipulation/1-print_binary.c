@@ -23,6 +23,6 @@ void print_binary(unsigned long int n)
 		else if (x)
 			_putchar('0');
 	}
-	if (x == NULL)
+	if (!x)
 		_putchar('0');
 }
