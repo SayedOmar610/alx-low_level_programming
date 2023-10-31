@@ -34,7 +34,7 @@ void check_file(int file_from, int file_to, char *argv[])
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, err;
-	size_t ch_num, rw;
+	ssize_t ch_num, rw;
 	char buf_size[1024];
 
 	if (argc != 3)
