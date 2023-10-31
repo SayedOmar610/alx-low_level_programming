@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 		ch_num = read(file_from, buf_size, 1024);
 		if (ch_num == -1)
 			check_file(-1, 0, argv);
-		rw = write(file_to, buf_size, 1024);
+		rw = write(file_to, buf_size, ch_num);
 		if (rw == -1)
 			check_file(0, -1, argv);
 	}
