@@ -10,7 +10,7 @@
  *
  * Return: 0
  */
-void check_file(int file_from, int file_to, size_t *argv[])
+void check_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
@@ -31,10 +31,10 @@ void check_file(int file_from, int file_to, size_t *argv[])
  * @argv: arguments vector
  * Return: 0
  */
-int main(int argc, size_t *argv[])
+int main(int argc, char *argv[])
 {
 	int file_from, file_to, err;
-	ssize_t ch_num, rw;
+	size_t ch_num, rw;
 	char buf_size[1024];
 
 	if (argc != 3)
